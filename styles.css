@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'GT Super';
+    src: url('fonts/GTSuper-Regular.woff') format('woff'),
+         url('fonts/GTSuper-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GT Super';
+    src: url('fonts/GTSuper-Bold.woff') format('woff'),
+         url('fonts/GTSuper-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'GT Super', sans-serif; /* Main modern font for body text */
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 3em; /* Increased font size for visibility */
+    letter-spacing: 2px; /* Spacing for a modern touch */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5733; /* Hover color for links */
+}
+
+.hero {
+    background: url('mycouchbackground.jpg') no-repeat center center/cover; /* Placeholder for hero image */
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #ff5733; /* Button color */
+    color: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #e04e28; /* Darker button color on hover */
+    transform: scale(1.05);
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.product-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 15px;
+    font-size: 1.5em;
+}
+
+.product-card p {
+    margin: 0 15px 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+.about p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact {
+    padding: 50px 20px;
+    background-color: #f9f9f9; /* Light background for contact section */
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #35424a; /* Consistent color with the about section */
+}
+
+.contact p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact ul li {
+    margin: 5px 0;
+}
+
+.contact ul li a {
+    color: #ff5733; /* Contact link color */
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.socials li a {
+    color: #ff5733; /* Social media link color */
+    text-decoration: none;
+}
+
+.socials li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
